@@ -133,7 +133,7 @@ st.write("학교 공간을 그래프 구조로 모델링하여 AED까지의 최�
 
 start = st.selectbox("📍 현재 위치를 선택하세요", sorted(School.nodes))
 
-aed_locations = ["첨단화학실험실1", "보건실"]
+aed_locations = ["신관2층화장실", "행정실"]
 max_cost = 540
 
 if st.button("🚑 AED 추천 경로 탐색하기"):
